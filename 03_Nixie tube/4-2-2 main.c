@@ -1,6 +1,6 @@
 #include <REGX52.H>
 
-unsigned char NixieTable[]={0x3F,0x06,0x5B,0x4F,0x66,0x6D,0x7D,0x07,0x7F,0x6F};//初始化数组
+unsigned char NixieTable[]={0x3F,0x06,0x5B,0x4F,0x66,0x6D,0x7D,0x07,0x7F,0x6F};//艂艖臉藕钮呕臉媒脳茅
 void Delay(unsigned int xms)
 {
     unsigned char i, j;
@@ -30,7 +30,7 @@ void Nixie(unsigned char Location,Number)
 
 	}
 	P0=NixieTable[Number];
-	Delay(1);//稳定显示
+	Delay(1);//脦膶艣篓膸脭臉啪
 	P0=0x00;
 }
 	
