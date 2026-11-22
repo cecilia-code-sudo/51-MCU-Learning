@@ -11,6 +11,7 @@
 ~0001 1000  ->  1110 0111
 - C51基本语句
 - <img width="1514" height="915" alt="ff8e47687aa97fc7b2a69cce2e115972" src="https://github.com/user-attachments/assets/d3c488da-97da-411a-b6b9-de176d61a5f1" />
+
 ## 3-2 独立按键控制LED状态
 **目标** 按键消抖，检测松手
 -while循环体两种结束写法：
@@ -23,3 +24,4 @@ while（）
 ```c
 while();
 ```
+默认I/O口高电平（1），按下为（0）
