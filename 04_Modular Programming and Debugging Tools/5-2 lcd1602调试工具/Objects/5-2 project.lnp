@@ -1,0 +1,5 @@
+".\Objects\main.obj",
+".\Objects\LCD1602.obj" 
+TO ".\Objects\5-2 project" 
+PRINT(".\Listings\5-2 project.m51") RAMSIZE(256) 
+DISABLEWARNING (16) 
